@@ -2,16 +2,14 @@
   box-sizing: border-box;
 }
 
-.container{
-  width: 1000px;
-  margin: auto;
+.row, .row2{
+  text-align: center;
 }
 
 .square1{
   display: inline-block;
   position: relative;
-  width: 300px;
-  height: 300px;
+
 }
 .sconto{
   background: green;
@@ -25,8 +23,7 @@
 .square2{
   display: inline-block;
   position: relative;
-  width: 300px;
-  height: 300px;
+
 }
 .sconto2{
   background: red;
@@ -39,8 +36,7 @@
 .square3{
   display: inline-block;
   position: relative;
-  width: 300px;
-  height: 300px;
+
 }
 .sconto3{
   background: green;
@@ -52,4 +48,25 @@
 
 .seconda-riga{
   margin-top: 50px;
+}
+
+.cuore{
+  position: absolute;
+  bottom: 0;
+  left: 130px;
+  color: red;
+  font-size: 30px;
+  display: none;
+
+}
+
+.square1:hover .cuore{
+  display: block;
+}
+.square2:hover .cuore{
+  display: block;
+}
+
+.square3:hover .cuore{
+  display: block;
 }
