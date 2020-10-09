@@ -20,10 +20,32 @@
   top: 0;
   right:0;
 }
+
+
+.square2{
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
 .sconto2{
   background: red;
   position: absolute;
   text-align: center;
-  bottom: 10px;
-  lefy:50%;
+  top:0;
+  right:0;
+}
+
+.square3{
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+.sconto3{
+  background: green;
+  position: absolute;
+  text-align: center;
+  top:0;
+  right:0;
 }
